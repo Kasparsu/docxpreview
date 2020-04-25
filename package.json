@@ -1,0 +1,23 @@
+{
+  "name": "filetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "watch": "parcel watch index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "docx-pdf": "0.0.1",
+    "docx-templates": "^4.1.0",
+    "mammoth": "^1.4.9",
+    "pdf-templater": "^0.1.9"
+  }
+}
